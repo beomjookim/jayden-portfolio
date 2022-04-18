@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Beomjoo's Portfolio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Beomjoo "Jayden" Kim</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="uil uil-university nav__icon"></i> Experience
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/beomjoo-jayden-kim-40a674143/" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/beomjookim" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://blog.naver.com/newtechlead" target="_blank" class="home__social-icon">
+                            <i class="uil uil-diary-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-img" x='0' y='0' href="assets/img/perfil.jpg" />
+                            </g>
+                        </svg>
+
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hello, this is <br>Beomjoo "Jayden" Kim</h1>
+                        <h3 class="home__subtitle">Frontend developer</h3>
+                        <p class="home__description">proficient at everything</p>
+                        <!-- <a href="#" class="button button--flex"></a> -->
+                    </div>
+                </div>
+                <div class="home__download">
+                    <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button button--flex">
+                        Download resume<i class="uil uil-file-download-alt button__icon"></i>
+                    </a>
+                </div>
+                <div class="home__scroll">
+                    <a href="#experience" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section" id="experience">
+            <h2 class="section__title">Experience</h2>
+            <span class="section__subtitle">My personal journey</span>
+            <div class="experience__container container">
+                <div class="experience__tabs">
+                    <div class="experience__button button--flex experience__active" data-target="#education">
+                        <i class="uil uil-graduation-cap experience__icon"></i>
+                        Education
+                    </div>
+                    <div class="experience__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt experience__icon"></i>
+                        Work
+                    </div>
+                </div>
+                <div class="experience__sections">
+                    <!--content 1-->
+                    <div class="experience__content experience__active" data-content id="education">
+                        <div class="experience__data">
+                            <div>
+                                <h3 class="experience__title">축구선수</h3>
+                                <span class="experience__subtitle">바이에른 뮌헨</span>
+                                <div class="experience__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2000 - 2001
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                        </div>
+                        <div class="experience__data">
+                            <div></div>
+                            <!-- empty div for grid -->
+                            <div>
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="experience__title">축구선수</h3>
+                                <span class="experience__subtitle">바이에른 뮌헨</span>
+                                <div class="experience__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2000 - 2001
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience__data">
+                            <div>
+                                <h3 class="experience__title">축구선수</h3>
+                                <span class="experience__subtitle">바이에른 뮌헨</span>
+                                <div class="experience__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2000 - 2001
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience__content" data-content id="work">
+                        <div></div>
+                        <div class="experience__data experience__no-content">
+                            I am now ready for a new role at new place!<br>
+                            Come and get me.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <!-- <span class="section__subtitle">My technical skill sets</span> -->
+
+            <div class="skills_container container grid">
+                <div>
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Frontend Skills</h1>
+                                <!-- <span class="skills__subtitle"></span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <h3 class="skills__name">JavaScript</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
+                                    alt="JavaScript" class="skills__img skills__js" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">React</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg"
+                                    alt="React" class="skills__img skills__react" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">HTML</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg"
+                                    alt="HTML" class="skills__img skills__html" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">CSS</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg"
+                                    alt="CSS" class="skills__img skills__css" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">Bootstrap</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg"
+                                    alt="Bootstrap" class="skills__img skills__bootstrap" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">TypeScript</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
+                                    alt="TypeScript" class="skills__img skills__ts" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Backend Skills</h1>
+                                <!-- <span class="skills__subtitle"></span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <h3 class="skills__name">JavaScript</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
+                                    alt="JavaScript" class="skills__img skills__js" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">Python</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/python-original.svg"
+                                    alt="Python" class="skills__img skills__python" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">Node.js</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg"
+                                    alt="Nodejs" class="skills__img skills__nodejs" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">Express.js</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg"
+                                    alt="Expressjs" class="skills__img skills__expressjs" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">C++</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg"
+                                    alt="C++" class="skills__img skills__c++" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">Java</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg"
+                                    alt="Java" class="skills__img skills__java" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Others</h1>
+                                <!-- <span class="skills__subtitle"></span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <h3 class="skills__name">Unity</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/unity.png" alt="Unity"
+                                    class="skills__img skills__unity" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">C#</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg" alt="C#"
+                                    class="skills__img skills__c#" />
+                            </div>
+                            <div class="skills__data">
+                                <h3 class="skills__name">Arduino</h3>
+                                <img src="https://profilinator.rishav.dev/skills-assets/arduino.png" alt="Arduino"
+                                    class="skills__img skills__arduino" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most Recent Work</span>
+
+            <div class="portfolio__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">
+                                1111111111111122222222222111111111111111111133333333333333331111111111111111111111111111111111
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-circle-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">zzzzzzzzzzzzzzzzzzzzzzz</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-circle-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">zzzzzzzzzzzzzzzzzzzzzzz</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-circle-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== SWIPER JS ====================-->
+        <!-- <script src="assets/js/swiper-bundle.min.js"></script> -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
